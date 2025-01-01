@@ -133,7 +133,7 @@ def plot_adult_literacy_90(df, title="Adult Literacy Trend (15+)", target=90):
 # 7) Main Streamlit App
 ######################################
 def main():
-    st.title("SDG Visualization Dashboard (No Word Cloud)")
+    st.title("SDG Visualization Dashboard")
 
     # Load data once
     data = load_data()
